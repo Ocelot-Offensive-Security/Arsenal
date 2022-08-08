@@ -23,7 +23,7 @@ int BLEDevice::getAdvertisement(uint8_t value[], int length)
   return _eirDataLength;
 }
 ```
-To advertise a package without proper flags at local/BLELocalDevice.cpp:
+To be able to advertise an AirTag package, we modified the flags assignation at local/BLELocalDevice.cpp:
 ```
 BLELocalDevice::BLELocalDevice()
 {
