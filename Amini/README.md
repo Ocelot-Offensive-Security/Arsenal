@@ -32,7 +32,7 @@ BLELocalDevice::BLELocalDevice()
 ```
 
 ## Examples
-In contains different examples to be used with supported Arduino-enviorenment boards.
+In contains different examples to be used with supported Arduino-environment boards.
 - leds: detecting AirTag presence by flashing LEDs depending on signal strength
 - scan: continuous scanning to detect enabled and disabled AirTags 
 - sound: detecting enabled AirTags and connected to them to generated a register, if after 10 minutes the AirTags are nearby, Amini can force to play a sound
