@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Admin\Documents\Electronic_Cats\Hw\MetabaseQ_BLEscanner\Hw\BLE_Detector.kicad_sch</source>
+    <date>18/02/2022 03:37:42 p. m.</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BLE_Detector.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE1">
+      <value>Antenna</value>
+      <footprint>BLEscanner:XDCR_ANT-2.45-CHP-T</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/238/LNNCS00024_1-2550779.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">-</field>
+        <field name="Proveedor">Mouser</field>
+        <field name="manf#">ANT-2.45-CHP-T</field>
+      </fields>
+      <libsource lib="Device" part="Antenna" description="Antenna"/>
+      <property name="manf#" value="ANT-2.45-CHP-T"/>
+      <property name="LCSC#" value="-"/>
+      <property name="Proveedor" value="Mouser"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>281cdeb1-2990-48fb-a6ac-fc779eabe2bc</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811031143_YAGEO-CC0603KRX5R6BB106_C326057.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C326057</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">CL05A106MQ5NUNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="CL05A106MQ5NUNC"/>
+      <property name="#LCSC" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C326057"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1250dd5e-e656-403b-aa9c-76145ac4d9f4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://lcsc.com/product-detail/Others_YAGEO-CC0603KRX5R6BB106_C326057.html</datasheet>
+      <fields>
+        <field name="LCSC#">C326057</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">CC0603KRX5R6BB106</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="CC0603KRX5R6BB106"/>
+      <property name="#LCSC" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C326057"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44c8d76e-892e-4829-bd98-8a20675ac743</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811031143_YAGEO-CC0603KRX5R6BB106_C326057.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C326057</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">CL05A106MQ5NUNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="CL05A106MQ5NUNC"/>
+      <property name="#LCSC" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C326057"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdfb1710-439f-4e08-8768-f2fe87be1452</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603F104Z160CT_C387984.html</datasheet>
+      <fields>
+        <field name="LCSC#">C387984</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">0603F104Z160CT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="0603F104Z160CT"/>
+      <property name="#LCSC" value=""/>
+      <property name="LCSC#" value="C387984"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa0466c6-766f-4bb4-abf1-502a6a06f91d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MBR120</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">MBR120LSF</field>
+      </fields>
+      <libsource lib="Diode" part="MBR340" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="manf#" value="MBR120LSF"/>
+      <property name="#LCSC" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9560da74-dd09-4735-9bb3-c63169b5b561</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>CHR</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Yongyu-Photoelectric-SZYY0603R_C434419.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C434419</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C434419"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f07eb91-ef46-4237-a9f5-5823737e0d44</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>USR1</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811100911_Orient-ORH-B36G_C193191.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C193191</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C193191"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e8a58a2-ba97-44ca-a7a3-f3d329f18d80</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>USR3</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811100911_Orient-ORH-B36G_C193191.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C193191</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C193191"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df044b3e-2427-41c9-9a46-27bc5bbacf6f</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>USR4</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811100911_Orient-ORH-B36G_C193191.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C193191</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C193191"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8de97da4-7353-49c7-9136-4ab5cd70a392</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>USR2</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811100911_Orient-ORH-B36G_C193191.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C193191</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C193191"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3deb066-eb3e-4b09-aa30-f005c7b97904</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>DONE</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2009251739_TUOZHAN-TZ-P2-0603GTCS1-0-6T_C779453.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C779453</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C779453"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ef82898-202c-46ac-9f5a-180ca4f89046</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Battery</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <datasheet>https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America_B2B-PH-SM4-TB-LF-SN_JST-Sales-America-B2B-PH-SM4-TB-LF-SN_C160352.htmlv</datasheet>
+      <fields>
+        <field name="LCSC#">-</field>
+        <field name="Proveedor">DNP</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x01" description="Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value=""/>
+      <property name="LCSC#" value="-"/>
+      <property name="Proveedor" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdb3261b-fff4-4209-af72-4ab02bd38f6a</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>USB_C_Plug_USB2.0</value>
+      <footprint>Connectors:C393939</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC#">C2765186</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Plug_USB2.0" description="USB 2.0-only Type-C Plug connector"/>
+      <property name="LCSC#" value="C2765186"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f8fb1e6-0851-4d9a-8639-43cde93227b7</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG3415U-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMG2301L.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C2959855</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">DMG3415UQ-7</field>
+      </fields>
+      <libsource lib="bastwan-wle-rescue" part="DMG2301L-Transistor_FET-Bast_WAN-rescue" description=""/>
+      <property name="manf#" value="DMG3415UQ-7"/>
+      <property name="#LCSC" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C2959855"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5a3d2a0-8555-4954-9518-35de13d1b786</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">0603WAJ0104T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="0603WAJ0104T5E"/>
+      <property name="#LCSC" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90f8ae13-d460-4d59-a508-d2373126cd3d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/ProductDetail/Panasonic/ERJ-UP3D4701V?qs=GedFDFLaBXFb98Nz2Hqatg%3D%3D</datasheet>
+      <fields>
+        <field name="LCSC#">C217937</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value=""/>
+      <property name="LCSC#" value="C217937"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7764635-58fb-46ec-b859-3262d065eb36</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/ProductDetail/KOA-Speer/RS73F1JTTD3300D?qs=GBLSl2Akirv8vAcGYB65Vg%3D%3D</datasheet>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">RS73F1JTTD3300D</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RS73F1JTTD3300D"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce8dfa98-203f-40a0-9cf4-f4a488bed6c7</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC#">C131715</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC#" value="C131715"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a33f5a4-a470-4c04-9e2d-532b5f01a5d6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC#">C131715</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC#" value="C131715"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea4f0afc-785b-40cf-8ef1-cbe20404c18b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">0603WAJ0104T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="0603WAJ0104T5E"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a1f25e2-5c2d-45f4-904f-880cd5ddafe4</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">0603WAJ0104T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="0603WAJ0104T5E"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d23b145-6960-43f5-9426-18a525adefc9</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/ProductDetail/KOA-Speer/RS73F1JTTD3300D?qs=GBLSl2Akirv8vAcGYB65Vg%3D%3D</datasheet>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">RS73F1JTTD3300D</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RS73F1JTTD3300D"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a13234a4-44ed-4ae0-aed0-b3d4cb98b8a2</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/ProductDetail/KOA-Speer/RS73F1JTTD3300D?qs=GBLSl2Akirv8vAcGYB65Vg%3D%3D</datasheet>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">RS73F1JTTD3300D</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RS73F1JTTD3300D"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41b78748-f0b7-45e1-99f8-98e483a0e878</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/ProductDetail/KOA-Speer/RS73F1JTTD3300D?qs=GBLSl2Akirv8vAcGYB65Vg%3D%3D</datasheet>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">RS73F1JTTD3300D</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RS73F1JTTD3300D"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7248c3f-4430-462b-ae79-b5c32fdcf0b6</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/ProductDetail/KOA-Speer/RS73F1JTTD3300D?qs=GBLSl2Akirv8vAcGYB65Vg%3D%3D</datasheet>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">RS73F1JTTD3300D</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RS73F1JTTD3300D"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f3590f2-1be3-45a4-853c-ea7e00174178</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/ProductDetail/KOA-Speer/RS73F1JTTD3300D?qs=GBLSl2Akirv8vAcGYB65Vg%3D%3D</datasheet>
+      <fields>
+        <field name="LCSC#">C517454</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">RS73F1JTTD3300D</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RS73F1JTTD3300D"/>
+      <property name="LCSC#" value="C517454"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ede13528-3a49-4283-9069-7447f33e9bc0</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC#">C318890</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="manf#" value="-"/>
+      <property name="LCSC#" value="C318890"/>
+      <property name="provedor" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e6d9a00-53a8-41ec-84d6-c41123025848</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>ON</value>
+      <footprint>BLEscanner:Micro_interruptor_SPDT</footprint>
+      <fields>
+        <field name="LCSC#">C318890</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">-</field>
+        <field name="provedor">-</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="LCSC#" value="C318890"/>
+      <property name="manf#" value="-"/>
+      <property name="provedor" value="-"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>233b0df7-f72a-4bab-ba07-15e8b8b946d7</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>D9</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC#">C318890</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="manf#" value="-"/>
+      <property name="LCSC#" value="C318890"/>
+      <property name="provedor" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4d743e5-4d99-4f49-8c16-51449c411a94</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>D8</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC#">C318890</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="manf#" value="-"/>
+      <property name="LCSC#" value="C318890"/>
+      <property name="provedor" value=""/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5806f166-c5b7-446b-9db4-5eae522d94cc</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73831-3-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://lcsc.com/product-detail/PMIC-Battery-Management_Microchip-Tech-MCP73831T-2ACI-OT_C424093.html</datasheet>
+      <fields>
+        <field name="LCSC#">-</field>
+        <field name="Proveedor">Mouser</field>
+        <field name="manf#">MCP73831T-2ACI/OT</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73831-3-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.35V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="manf#" value="MCP73831T-2ACI/OT"/>
+      <property name="Proveedor" value="Mouser"/>
+      <property name="LCSC#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ede82a11-8f5c-4b80-9a2f-e6845171235f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1700_DFN6</value>
+      <footprint>Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/268/MCP1700_Data_Sheet_20001826F-737536.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">-</field>
+        <field name="Proveedor">Mouser</field>
+        <field name="manf#">MCP1700T-3302E/MAY</field>
+      </fields>
+      <libsource lib="bastwan-wle-rescue" part="MCP1700_DFN6-Regulator" description=""/>
+      <property name="#Mouser" value=""/>
+      <property name="Proveedor" value="Mouser"/>
+      <property name="manf#" value="MCP1700T-3302E/MAY"/>
+      <property name="LCSC#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63334051-4f87-4485-9836-65da41e6c49a</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>RAK4630</value>
+      <footprint>BLEscanner:RAK4630</footprint>
+      <datasheet>https://es.aliexpress.com/item/4000097568690.html?spm=a2g0o.productlist.0.0.2c846e89E4EtL0&amp;algo_pvid=d04dc672-04cc-4ca4-b665-29eac425766c&amp;algo_expid=d04dc672-04cc-4ca4-b665-29eac425766c-1&amp;btsid=0bb0624016020538099327804e16e7&amp;ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_</datasheet>
+      <fields>
+        <field name="LCSC#">-</field>
+        <field name="Proveedor">RAK</field>
+        <field name="manf#">RAK4630</field>
+      </fields>
+      <libsource lib="BastFrontier-rescue" part="RAK4630-Electronic_Cats-BastEdge-rescue-BastFrontier-rescue-BastFrontier-rescue" description=""/>
+      <property name="manf#" value="RAK4630"/>
+      <property name="Proveedor" value="RAK"/>
+      <property name="LCSC#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLE_Detector.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3c3d042-f4c5-4fb1-a6b8-52aa1c14cc0e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BastFrontier-rescue" part="RAK4630-Electronic_Cats-BastEdge-rescue-BastFrontier-rescue-BastFrontier-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RAK4630-Electronic_Cats-BastEdge-rescue-BastFrontier-rescue-BastFrontier-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="P0.13/SDA" type="input"/>
+        <pin num="5" name="P0.14/SCL" type="input"/>
+        <pin num="6" name="P0.15/RX2" type="input"/>
+        <pin num="7" name="P016/TX2" type="input"/>
+        <pin num="8" name="P0.17/IO1" type="input"/>
+        <pin num="9" name="P0.19/RX" type="input"/>
+        <pin num="10" name="P0.20/TX" type="input"/>
+        <pin num="11" name="P0.21/IO3" type="input"/>
+        <pin num="12" name="P0.10/NFC2" type="input"/>
+        <pin num="13" name="P0.09/NFC1" type="input"/>
+        <pin num="14" name="GND" type="input"/>
+        <pin num="15" name="RF_BT" type="input"/>
+        <pin num="16" name="GND" type="input"/>
+        <pin num="17" name="RST" type="input"/>
+        <pin num="18" name="SWDCLK" type="input"/>
+        <pin num="19" name="SWDIO" type="input"/>
+        <pin num="20" name="VBAT_SX" type="input"/>
+        <pin num="21" name="VBAT_IO_SX" type="input"/>
+        <pin num="22" name="GND" type="input"/>
+        <pin num="23" name="P0.24/SDA2" type="input"/>
+        <pin num="24" name="P0.25/SCL2" type="input"/>
+        <pin num="25" name="P1.01/SW1" type="input"/>
+        <pin num="26" name="P1.02/SW2" type="input"/>
+        <pin num="27" name="P1.03" type="input"/>
+        <pin num="28" name="P1.04" type="input"/>
+        <pin num="29" name="P0.03/QSPI_CLK" type="input"/>
+        <pin num="30" name="P0.02/QSPI_DIO3" type="input"/>
+        <pin num="31" name="P0.28/QSPI_DIO2" type="input"/>
+        <pin num="32" name="P0.29/QSPI_DIO1" type="input"/>
+        <pin num="33" name="P0.30/QSPI_DIO0" type="input"/>
+        <pin num="34" name="P0.26/QSPI_CS" type="input"/>
+        <pin num="35" name="GND" type="input"/>
+        <pin num="36" name="GND" type="input"/>
+        <pin num="37" name="RF_LORA" type="input"/>
+        <pin num="38" name="GND" type="input"/>
+        <pin num="39" name="P0.31/AIN7" type="input"/>
+        <pin num="40" name="P0.05/AIN3" type="input"/>
+        <pin num="41" name="P0.04/AIN2" type="input"/>
+        <pin num="42" name="GND" type="input"/>
+        <pin num="43" name="VDD" type="input"/>
+        <pin num="44" name="VBAT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73831-3-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.35V, Tri-State Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-3-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Plug_USB2.0">
+      <description>USB 2.0-only Type-C Plug connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Plug*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_C_Plug_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="VCONN" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x01">
+      <description>Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna">
+      <description>Antenna</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR340">
+      <description>40V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR340</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bastwan-wle-rescue" part="DMG2301L-Transistor_FET-Bast_WAN-rescue">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG2301L-Transistor_FET-Bast_WAN-rescue</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bastwan-wle-rescue" part="MCP1700_DFN6-Regulator">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700_DFN6-Regulator</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="6" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="20" pinfunction="VBAT_SX" pintype="input"/>
+      <node ref="U3" pin="21" pinfunction="VBAT_IO_SX" pintype="input"/>
+      <node ref="U3" pin="43" pinfunction="VDD" pintype="input"/>
+      <node ref="U3" pin="44" pinfunction="VBAT" pintype="input"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VBAT" pintype="power_out"/>
+    </net>
+    <net code="3" name="/A0">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="41" pinfunction="P0.04/AIN2" pintype="input"/>
+    </net>
+    <net code="4" name="/D+">
+      <node ref="P1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="D+" pintype="input"/>
+    </net>
+    <net code="5" name="/D-">
+      <node ref="P1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="D-" pintype="input"/>
+    </net>
+    <net code="6" name="/D8">
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="39" pinfunction="P0.31/AIN7" pintype="input"/>
+    </net>
+    <net code="7" name="/D9">
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="40" pinfunction="P0.05/AIN3" pintype="input"/>
+    </net>
+    <net code="8" name="/D10">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="33" pinfunction="P0.30/QSPI_DIO0" pintype="input"/>
+    </net>
+    <net code="9" name="/D11">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="34" pinfunction="P0.26/QSPI_CS" pintype="input"/>
+    </net>
+    <net code="10" name="/D12">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="32" pinfunction="P0.29/QSPI_DIO1" pintype="input"/>
+    </net>
+    <net code="11" name="/D13">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="P0.28/QSPI_DIO2" pintype="input"/>
+    </net>
+    <net code="12" name="/RST">
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="22" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="35" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="36" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="38" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="42" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(P1-PadA5)">
+      <node ref="P1" pin="A5" pinfunction="CC" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(P1-PadB5)">
+      <node ref="P1" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(U3-Pad15)">
+      <node ref="AE1" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="RF_BT" pintype="input"/>
+    </net>
+    <net code="27" name="VBUS">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="P1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="28" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="P0.13/SDA" pintype="input+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="P0.14/SCL" pintype="input+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="P0.15/RX2" pintype="input+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="P016/TX2" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="P0.17/IO1" pintype="input+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="P0.19/RX" pintype="input+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="P0.20/TX" pintype="input+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="P0.21/IO3" pintype="input+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="P0.10/NFC2" pintype="input+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="P0.09/NFC1" pintype="input+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U3-Pad18)">
+      <node ref="U3" pin="18" pinfunction="SWDCLK" pintype="input"/>
+    </net>
+    <net code="39" name="unconnected-(U3-Pad19)">
+      <node ref="U3" pin="19" pinfunction="SWDIO" pintype="input"/>
+    </net>
+    <net code="40" name="unconnected-(U3-Pad23)">
+      <node ref="U3" pin="23" pinfunction="P0.24/SDA2" pintype="input+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U3-Pad24)">
+      <node ref="U3" pin="24" pinfunction="P0.25/SCL2" pintype="input+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U3-Pad25)">
+      <node ref="U3" pin="25" pinfunction="P1.01/SW1" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U3-Pad26)">
+      <node ref="U3" pin="26" pinfunction="P1.02/SW2" pintype="input+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U3-Pad27)">
+      <node ref="U3" pin="27" pinfunction="P1.03" pintype="input+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U3-Pad28)">
+      <node ref="U3" pin="28" pinfunction="P1.04" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U3-Pad29)">
+      <node ref="U3" pin="29" pinfunction="P0.03/QSPI_CLK" pintype="input+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U3-Pad30)">
+      <node ref="U3" pin="30" pinfunction="P0.02/QSPI_DIO3" pintype="input+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U3-Pad37)">
+      <node ref="U3" pin="37" pinfunction="RF_LORA" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
