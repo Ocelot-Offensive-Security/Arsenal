@@ -18,7 +18,7 @@ uint8_t advertags[10][31];                        //Save active AirTags Advertin
 
 uint8_t positiona = 0;                            //The last Active AirTag
 
-bool playSoundm = true;                           //Write chrac to play a sound without waiting 10 minutes
+bool playSoundm = false;                           //Write chrac to play a sound without waiting 10 minutes
 
 float MINUTES = 10.2;                             //Minimum 10 minutes to make it play a sound
 unsigned long ONEMINUTE = 60000;                  //1 minute
