@@ -75,3 +75,4 @@ static void gap_advertise_start(GapState new_state) {
 }
 ...
 ```
+Partial example of advertising [Twitter post](https://twitter.com/Netxing/status/1584654410856423424).
