@@ -6,6 +6,8 @@ The main modifications were in/with the functions:
 - aci_gap_set_discoverable
 - aci_gap_delete_ad_type
 - aci_gap_update_adv_data
+
+Even with all these changes, the Flipper app can connect normally by Bluetooth without issues.
 ```
 ...
 static void gap_advertise_start(GapState new_state) {
