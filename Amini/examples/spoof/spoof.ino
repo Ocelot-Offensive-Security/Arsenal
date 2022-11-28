@@ -33,7 +33,7 @@ void setup() {
 void spoofDevice(){ //Spoof advertising data
   uint8_t adv[27];
   for (int x = 4; x < 31; x++) {
-    adv[x-4] = (byte)advertisements[x];
+    adv[x-4] = (byte)advertisement[x];
   }
 
   uint16_t idm = 0x004c; //Apple ID

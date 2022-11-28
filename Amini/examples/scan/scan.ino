@@ -30,7 +30,7 @@ void loop(){
   
   if (peripheral){
     
-    int adLength = peripheral.getAdvertisement(advertisement,31);
+    int adLength = peripheral.advertisementData(advertisement,31);
     
     if (advertisement[0] == 0x1e && advertisement[2] == 0x4c && advertisement[3] == 0x00){ //Check if it is an Apple AirTag
 
